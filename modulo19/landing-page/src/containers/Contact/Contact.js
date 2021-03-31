@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import ContactImage from "../../assets/img/contact-image.png";
-import { Form, Button, Container, Row, Col, Alert } from "react-bootstrap";
+import { Form, Button, Container, Row, Col } from "react-bootstrap";
 import { sendEmail } from "../../axios"
 const Contact = () => {
   const [validated, setValidated] = useState(false)
@@ -8,7 +8,7 @@ const Contact = () => {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    console.log('Se envio')
+    // alert('Se envio')
     const form = e.currentTarget;
     console.log(form.checkValidity())
     // checkValidity() es un metodo que me devuelve true o falsen
@@ -18,9 +18,10 @@ const Contact = () => {
       console.log('El form fue validado')
       let responseData = await sendEmail(formData)
       console.log(responseData.data)
+      alert('El mensaje ha sido enviado');
       form.reset()
     } else {
-      console.log('Te olvidaste algo')
+      alert('Debes completar correctamente el formulario');
     }
   }
 

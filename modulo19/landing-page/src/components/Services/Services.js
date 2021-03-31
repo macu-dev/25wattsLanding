@@ -10,7 +10,7 @@ const Services = () => {
                 <img src={imageSeccionCuatro} alt="section4"/>
             </div>
            
-            <div class="accordion">
+            <div className="accordion">
               <Accordion defaultActiveKey="0" >
                 
                 <Card>

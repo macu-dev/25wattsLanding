@@ -1,5 +1,5 @@
 import React from 'react';
-import Logo from '../../assets/img/top-logo.svg'
+import Logo from '../../assets/img/25watts-logo.svg'
 
 const Header = () =>{
     return (

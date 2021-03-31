@@ -4,7 +4,7 @@ import footerLogo from "../../assets/img/footer-logo.svg";
 const Footer = ()=>{
     return(
     <footer >
-        <div class="pie">
+        <div className="pie">
             <p>2020 © All rights reserved.</p>
             <img src={footerLogo} alt="logo 25Watts"/>
         </div>

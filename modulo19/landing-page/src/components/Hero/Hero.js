@@ -1,7 +1,7 @@
 import React from 'react';
 import { Carousel, Button } from "react-bootstrap";
-import imageSlide from "../../assets/img/slider-1@2x.png";
-import imageSlide2 from "../../assets/img/slider-1@2x1.png";
+import imageSlide from "../../assets/img/slider.png";
+
 
 const Hero = () => {
   return (
@@ -16,7 +16,7 @@ const Hero = () => {
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
-          <img src={imageSlide2} className='d-block w-100' alt='Third slide' />
+          <img src={imageSlide} className='d-block w-100' alt='Third slide' />
           <Carousel.Caption>
             <h3>Second slide label</h3>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
