@@ -1,0 +1,50 @@
+/*SERVICE*/
+
+.section-services{
+    display: flex;
+    flex-direction: row-reverse;
+    height: 768px;
+    width: 100%;
+  }
+.imagen4 {
+    display: flex;
+    position: relative;
+}
+.accordion{
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+
+    height: 40%;// NO SE COMO ACOMODAR PARA QUE SE AGRANDE O ACHIQUE SEGÚN LO REQUERIDO
+    width: 100%;
+    box-sizing: border-box;
+    background: white;
+    position: relative;
+    margin-left: 10%;
+    margin-right:-15%;
+    margin-top: 10%;
+    
+
+    h4 {
+        font-size: 16px;
+        color: #5f6368;
+    }
+    p {
+        font-size: 16px;
+        color: #5f6368;
+        padding: 5% 5%;
+        
+
+    }
+
+}
+
+  
+
+    
+    
+  
+  
+     
+     
+  
