@@ -1,6 +1,6 @@
 import React from 'react';
 import imageSeccionCuatro from "../../assets/img/section4-image.png";
-import { Accordion, Button , Card } from "react-bootstrap";
+import { Accordion, Card } from "react-bootstrap";
 
 const Services = () => {
     return (
