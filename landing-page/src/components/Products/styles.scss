@@ -1,8 +1,9 @@
 /*Products ************************************************************************************ */
+/*
 .d-none {
     display: none !important;
-    /* */
-}
+    
+}*/
   
 .section {
   height: 100vh;
@@ -31,10 +32,72 @@
   position: relative;
 }
 .products-content-cards {
-  border: 1px solid yellow;
-  height: 80%;
+  height:300px;
   position: relative;
-  width: 2000px;
+  width: 480px;
+  background-color:#E0752F;
 }
+
+.carousel-indicators li{
+  display: none;
+}
+
+.carousel-control-prev{
+ margin-left: 390px;
+ margin-top: 220px;
+ z-index: 10;
+ width: 21px;
+
+}
+
   
+.carousel-control-next{
+  margin-top: 220px;
+  margin-right: 40px;
+  width: 21px;
+}
+
+.carousel-control-prev-icon{
+  background-image: url("../../assets/img/Icon feather-arrow-left-circle.svg");
+  
+}
+
+.carousel-control-next-icon{
+  background-image: url("../../assets/img/Icon feather-arrow-right-circle.svg");
+}
+
+.carousel-indicators{
+  justify-content: right;
+  right: 75%;
+}
+
+.carousel-caption{
+  display: contents;
+  
+}
+.carousel-caption h3{
+  margin: 0;
+  padding-bottom: 0;
+  font-size: 16px;
+  padding-left: 50px;
+  padding-top: 20px;
+} 
+
+.carousel-caption h2{
+  margin-top: 0;
+  margin-bottom: 20px;
+  padding-top: 0;
+  font-size: 39px;
+  padding-left: 50px;
+}
+
+.carousel-caption p{
+  width: 400px;
+  font-size: 16px;
+  padding-left: 50px;
+}
+
+
+//import imageSlideProductsLeft from "../../assets/img/Icon feather-arrow-left-circle.svg";
+//import imageSlideProductsRight from "../../assets/img/Icon feather-arrow-right-circle.svg";
     /*Fin de products******************************************************************************/
