@@ -1,6 +1,8 @@
 import React from 'react';
 import imageSeccionCuatro from "../../assets/img/section4-image.png";
+import IconFeatherUp from "../../assets/img/Icon-feather-chevron-up.svg";
 import { Accordion, Card } from "react-bootstrap";
+
 
 const Services = () => {
     return (
@@ -15,6 +17,7 @@ const Services = () => {
                 <Card>
                     <Accordion.Toggle as={Card.Header} eventKey="0">
                         <h4>Sed ut perspiciatis</h4>
+                        <img src={IconFeatherUp} alt="IconFeatherUp"/>
                     </Accordion.Toggle>
                     <Accordion.Collapse eventKey="0">
                         <Card.Body> <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy <br></br>eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam <br></br> voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita <br></br> kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p></Card.Body>
@@ -23,6 +26,7 @@ const Services = () => {
                 <Card>
                     <Accordion.Toggle as={Card.Header} eventKey="1">
                         <h4>Ut enim ad minima veniam</h4>
+                        <img src={IconFeatherUp} alt="IconFeatherUp"/>
                     </Accordion.Toggle>
                     <Accordion.Collapse eventKey="1">
                         <Card.Body><p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy <br></br> eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam <br></br> voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita <br></br>kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p></Card.Body>
@@ -31,6 +35,7 @@ const Services = () => {
                 <Card>
                     <Accordion.Toggle as={Card.Header} eventKey="2">
                         <h4>Sit amet, consectetur, adipisci</h4>
+                        <img src={IconFeatherUp} alt="IconFeatherUp"/>
                     </Accordion.Toggle>
                     <Accordion.Collapse eventKey="2">
                         <Card.Body><p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy <br></br> eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam<br></br> voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita<br></br> kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p></Card.Body>
