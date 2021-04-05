@@ -4,6 +4,17 @@ import Carousel from 'react-bootstrap/Carousel';
 
 const Products = () =>{
 
+    const products = [
+        {
+          title: 'Sed ut Sed ut perspiciatis 1',
+          subtile: 'Nemo Enim',
+          text: 'Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam'  
+        }
+
+
+
+    ];
+
 
     return (
         <section id="products" className="section section-products">

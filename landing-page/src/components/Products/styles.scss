@@ -38,9 +38,6 @@
   background-color:#E0752F;
 }
 
-.carousel-indicators li{
-  display: none;
-}
 
 .carousel-control-prev{
  margin-left: 390px;
@@ -50,7 +47,6 @@
 
 }
 
-  
 .carousel-control-next{
   margin-top: 220px;
   margin-right: 40px;
@@ -66,35 +62,22 @@
   background-image: url("../../assets/img/Icon feather-arrow-right-circle.svg");
 }
 
-.carousel-indicators{
-  justify-content: right;
-  right: 75%;
+.d-contents{
+  display: contents;
 }
 
-.carousel-caption{
-  display: contents;
-  
-}
-.carousel-caption h3{
-  margin: 0;
-  padding-bottom: 0;
-  font-size: 16px;
-  padding-left: 50px;
+.carosuel-caption__title{
+  font-size: 16px !important;
   padding-top: 20px;
 } 
 
-.carousel-caption h2{
-  margin-top: 0;
+.carosuel-caption__subtitle{
   margin-bottom: 20px;
-  padding-top: 0;
-  font-size: 39px;
-  padding-left: 50px;
+  font-size: 39px!important;
 }
 
-.carousel-caption p{
-  width: 400px;
+.carosuel-caption__text{
   font-size: 16px;
-  padding-left: 50px;
 }
 
 
