@@ -4,34 +4,48 @@ import Nav from 'react-bootstrap/Nav';
 
 
 const Header = () =>{
-    return (
-       <header className="header">
-         <div className="container">
+  const navItems = [
+    {
+      title: 'Home',
+      href: '#home'
+    },
+    {
+      title: 'About',
+      href: '#about'
+    },
+    {
+      title: 'Products',
+      href: '#products'
+    },
+    {
+      title: 'Services',
+      href: '#services'
+    }, 
+    {
+      title: 'Contact',
+      href: '#contact'
+    }
+  ];
+
+  return (
+    <header className="header">
+        <div className="container">
             <a href="www.google.com">
-                <img src={Logo} alt="Landing Page"/>
+            <img src={Logo} alt="Landing Page"/>
             </a>
             <Nav className='navbar'>
-            
-              <Nav.Item>
-                <Nav.Link className="navbar-item" href="#home">Home</Nav.Link>
-              </Nav.Item>
-              <Nav.Item>
-                <Nav.Link className="navbar-item" href="#about">About</Nav.Link>
-              </Nav.Item>
-              <Nav.Item>
-                <Nav.Link className="navbar-item" href="#products">Products</Nav.Link>
-              </Nav.Item>
-              <Nav.Item>
-                <Nav.Link className="navbar-item" href="#services">Services</Nav.Link>
-              </Nav.Item>
-              <Nav.Item>
-                <Nav.Link className="navbar-item" href="#contact" color="white">Contact</Nav.Link>
-              </Nav.Item>
-            </Nav>
-                   
-         </div>
-       </header>
-    )
+            {
+                navItems.map(({title, href}) => 
+                    <Nav.Item>
+                        <Nav.Link className="navbar-item" href={href}>{title}</Nav.Link>
+                    </Nav.Item>
+                    
+                )
+            }
+            </Nav>             
+        </div>
+    </header>
+  )
 }
 
 export default Header;
