@@ -36,10 +36,9 @@ const Header = () =>{
             <Nav className='navbar'>
             {
                 navItems.map(({title, href}) => 
-                    <Nav.Item>
+                    <Nav.Item key={href}>
                         <Nav.Link className="navbar-item" href={href}>{title}</Nav.Link>
-                    </Nav.Item>
-                    
+                    </Nav.Item> 
                 )
             }
             </Nav>             
