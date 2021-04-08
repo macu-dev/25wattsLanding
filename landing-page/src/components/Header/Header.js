@@ -34,13 +34,13 @@ const Header = () =>{
             <img src={Logo} alt="Landing Page"/>
             </a>
             <Nav className='navbar'>
-            {
-                navItems.map(({title, href}) => 
-                    <Nav.Item key={href}>
-                        <Nav.Link className="navbar-item" href={href}>{title}</Nav.Link>
-                    </Nav.Item> 
-                )
-            }
+                {
+                    navItems.map(({title, href}) => 
+                        <Nav.Item key={href}>
+                            <Nav.Link className="navbar-item" href={href}>{title}</Nav.Link>
+                        </Nav.Item> 
+                    )
+                }
             </Nav>             
         </div>
     </header>

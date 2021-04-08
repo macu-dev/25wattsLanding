@@ -33,16 +33,29 @@
         
 
     }
-     
     
-    .card-header img{
-        padding-left: 95%;
-        margin-top: -20px;
-    }
 
 }
 
-  
+.card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+
+    img {
+        cursor: pointer;
+    }
+}
+
+
+.rotate-arrow {
+    transform: rotate(180deg);
+}
+
+.button__arrow {
+    border: 0;
+    background: transparent;
+}
 
     
     
